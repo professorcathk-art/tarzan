@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: tarzan
+      POSTGRES_PASSWORD: tarzan
+      POSTGRES_DB: tarzan
+    ports:
+      - "5432:5432"
+    volumes:
+      - tarzan_pg:/var/lib/postgresql/data
+
+volumes:
+  tarzan_pg:

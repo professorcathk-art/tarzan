@@ -1,0 +1,17 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pandas>=2.2.0
+numpy>=2.0.0
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+eval-type-backport>=0.2.0
+sqlalchemy>=2.0.36
+psycopg2-binary>=2.9.10
+python-dotenv>=1.0.1
+httpx>=0.28.0
+yfinance>=0.2.48
+vaderSentiment>=3.3.2
+apscheduler>=3.10.4
+stripe>=11.5.0
+resend>=2.4.0
+python-jose[cryptography]>=3.3.0
